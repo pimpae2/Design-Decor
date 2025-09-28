@@ -1,0 +1,40 @@
+:root {
+  --primary-main: #266d47;  
+  --primary-main2: #00391a;  
+  --primary-yellow: #ffd403;  
+  --secondary-blue: #B7CBD0;  
+  --secondary-green: #3D4E3E;  
+  --secondary-grey: #e6e6e6; 
+  --text-black: #181D27; 
+}   
+a{
+  text-decoration: none !important; 
+}
+a:hover{
+  text-decoration: none;
+} 
+body{
+  font-family: "Prompt", sans-serif;
+  font-style: normal;  
+  overflow-x: hidden !important;
+}    
+
+
+
+/*  
+  transition: 0.3s;  
+######################################################################################################
+###################################################################################################### 
+*/ 
+ 
+
+@media only screen and (max-width: 1024px) { /* MOBILE */
+  .mb-x{
+    display: none !important;
+  } 
+}
+@media only screen and (min-width: 768px) { /* PC */
+  .pc-x{
+    display: none !important;
+  }      
+}      
