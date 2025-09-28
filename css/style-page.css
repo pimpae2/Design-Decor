@@ -187,8 +187,7 @@ body{
   border-top-left-radius: 250px;
   border-top-right-radius: 250px;
   border-bottom-right-radius: 100px;
-  border-bottom-left-radius: 100px;
-
+  border-bottom-left-radius: 100px;  
 }
 .plan-ver .img{ 
   width: auto;
@@ -197,9 +196,226 @@ body{
   margin: auto;
   margin-left: -20%;
 }
-
-
-
+.plan-long .btn.btn-text{
+  min-width: 100px;
+  background-color: white;
+  border-radius: 100px; 
+  font-weight: 500; 
+  font-size: 15px; 
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #545454;
+  box-shadow: 0px 4px 4px 0px #00000040; 
+  transition: 0.3s;  
+  margin-right: 10px;
+}
+.plan-long .btn.btn-text:hover{ 
+  background-color: #B0937B;
+  color: white;
+}
+.btn.like{
+  width: 37px !important;
+  height: 35px;
+  background-color: white;
+  border-radius: 100px;  
+  box-shadow: 0px 4px 4px 0px #00000040; 
+  transition: 0.3s;   
+  padding: 0 !important; 
+}
+.btn.like:focus{
+  background-color: white;
+  border: none;
+}
+.btn.like img{
+  width: 15px;
+  height: 13px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+.plan-ver h4{
+  text-align: center;
+  color: #B0937B;
+  font-size: 32px;
+}
+.plan-ver h4 strong{
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.plan-ver .btn-des{
+  font-weight: bold;
+  margin-bottom: 20px;
+} 
+.plan-ver .text-des{   
+  font-weight: 400; 
+  font-size: 20px; 
+  line-height: 100%;
+  letter-spacing: 5%;
+  text-align: center;
+  color: #B0937B;
+  display: block;
+  transition: 0.3s; 
+} 
+.plan-ver .text-des:hover{   
+  color: rgba(84,84,84,.6); 
+} 
+.sect4{
+  height: 540px;
+  background-image: url(../images/bg4.png);
+  background-size: 100% auto !important;
+  background-repeat: no-repeat !important;
+  background-position: center;
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+} 
+.sect4:after{
+  content: "";
+  height: 540px;
+  width: 100%;
+  background: rgb(52, 29, 19, .7);
+  z-index: 11;
+  position: absolute;
+  left: 0;
+  top: 0 ;
+} 
+.sect4 .container{
+  position: relative;
+  z-index: 13; 
+}
+.sect4 .swiper-wrapper { 
+  height: 100%;
+  display: flex;
+}
+.sect4 .img-fluid{ 
+  box-shadow: 0px 4px 4px 0px #00000040; 
+  height: 360px;
+  width: auto;
+  object-fit: cover;
+}
+.sect4 .swiper-button-next, .sect4 .swiper-button-prev { 
+  color:#000; 
+  border-radius:50%;
+  width: 38px !important; 
+  height: 38px !important; 
+  z-index: 10 !important;
+  box-shadow:0 4px 12px rgba(0,0,0,0.12);
+  opacity: 1;
+}  
+.sect4 .swiper-button-prev{
+  left: -5% !important; 
+  opacity: 1;
+  height: 60px;
+  width: 60px;
+  background-color: rgba(176, 147, 123, .5);
+  color: white;
+}  
+.sect4 .swiper-button-next{
+  right: -5% !important; 
+  opacity: 1;
+  height: 60px;
+  width: 60px;
+  background-color: rgba(176, 147, 123, .5);
+  color: white;
+}   
+.sect4 .swiper-button-prev:after{
+  content: unset !important;
+}   
+.sect4 .swiper-button-next:after{
+  content: unset !important;
+}    
+.sect4 .swiper-button-prev i{
+  color: black;
+}  
+.sect4 .swiper-button-next i{
+  color: black;
+}  
+.sect5{
+  height: 100vh; 
+  position: relative;
+  z-index: 3; 
+} 
+.sect5:after{ 
+  position: absolute;
+  content: "";
+  width: 50%;
+  background-image: url(../images/bg5.jpg);
+  background-size: auto 100% !important;
+  background-repeat: no-repeat !important;
+  background-position: right   center;
+  height: 100%;
+  top: 0;
+  left: 0;
+} 
+.sect5 .dexx{
+  z-index: 11;
+  position: relative;
+  margin-top: 180px;
+  padding: 50px;
+  min-height: 400px;
+  background-color: rgba(52, 29, 19, .7);
+} 
+.sect5 h2{   
+  font-weight: 700; 
+  font-size: 32px; 
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #B0937B; 
+}
+.sect5 h3{ 
+  font-weight: 500; 
+  font-size: 20px; 
+  line-height: 110%; 
+  color: white;
+}
+.sect5 p{   
+  font-weight: 500; 
+  font-size: 16px; 
+  line-height: 110%; 
+  color: white;
+}
+.pro-pad{
+  margin-top: 20px;
+  padding-left: 50px;
+}
+.productx{
+  height: 140px;
+  background-image: url(../images/bg-item.png);
+  background-size: auto 130px !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.productx .img-product{
+  height: 110px;
+  width: auto;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pro-pad .btn-text{
+  box-shadow: 0px 4px 4px 0px #00000040;
+  color: #B0937B;
+  border-radius: 100px;
+  margin-right: 10px;
+  width: 90px;
+  font-size: 13px;
+}
+.productx .img-product.s1{
+  height: 110px; 
+}
+.productx .img-product.s2{
+  height: 140px; 
+}
+.productx .img-product.s3{
+  height: 160px; 
+}
+.productx .img-product.s4{
+  height: 180px; 
+}
 
 /*  
   transition: 0.3s;  
