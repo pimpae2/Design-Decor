@@ -22,13 +22,14 @@ body{
   background-color: #fff;
   position: relative;
   padding-top: 30px;
+  height: 1080px; 
 }
 .sect1 .box-color{
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 85%; 
+  height: 73%; 
   z-index: 1;
 }
 .sect1 h3{ 
@@ -36,7 +37,7 @@ body{
   font-size: 64px; 
   line-height: 100%;
   letter-spacing: 10%;
-  color: rgba(84,84,84,.6);
+  color: rgba(84,84,84,.5);
   transform: rotate(-90deg); 
   position: absolute;
   z-index: 3;
@@ -112,6 +113,7 @@ body{
   background-color: #fff; 
   padding-top: 80px;
   padding-bottom: 100px;
+  height: 1080px;
 }
 .sect3 h2{   
   font-weight: 700; 
@@ -171,7 +173,7 @@ body{
   height: 370px;
   display: block;
   margin: auto;
-  margin-left: -20%;
+  margin-left: -10%;
 }
 .plan-long .btn.btn-text{
   min-width: 100px;
@@ -233,7 +235,7 @@ body{
   transition: 0.3s; 
 } 
 .plan-ver .text-des:hover{   
-  color: rgba(84,84,84,.6); 
+  color: rgba(84,84,84,.5); 
 } 
 .sect4{
   height: 540px;
@@ -256,7 +258,11 @@ body{
   left: 0;
   top: 0 ;
 } 
-.sect4 .container{
+.sect4 .container-xl{
+  position: relative;
+  z-index: 13; 
+}
+.sect3 .container{
   position: relative;
   z-index: 13; 
 }
@@ -308,7 +314,7 @@ body{
   color: black;
 }  
 .sect5{
-  height: 100vh; 
+  height: 1080px; 
   position: relative;
   z-index: 3; 
 } 
@@ -335,20 +341,20 @@ body{
 .sect5 h2{   
   font-weight: 700; 
   font-size: 32px; 
-  line-height: 100%; 
+  line-height: 40px; 
   color: #B0937B; 
 }
 .sect5 h3{ 
   font-weight: 500; 
   font-size: 20px; 
-  line-height: 110%; 
+  line-height: 30px; 
   color: white;
 }
 .sect5 p{   
   font-weight: 500; 
-  font-size: 16px; 
-  line-height: 110%; 
+  font-size: 16px;  
   color: white;
+  line-height: 25px; 
 }
 .pro-pad{
   margin-top: 20px;
@@ -392,7 +398,7 @@ body{
   height: 180px; 
 }
 .sect6{
-  height: 100vh; 
+  height: 1080px; 
   position: relative;
   z-index: 3; 
   padding-top: 100px;
@@ -429,7 +435,7 @@ body{
 }  
 .sect6 .swiper-button-prev{
   top: 50px;
-  left: 92% !important; 
+  left: 94% !important; 
   opacity: 1;
   height: 60px;
   width: 60px;
@@ -489,7 +495,17 @@ body{
   color: #000;
   background-color: rgba(176, 147, 123, .8);
 }
-
+.text-rot{
+  position: absolute;
+  top: 35%;
+  right: -13%; 
+  font-weight: 600; 
+  font-size: 64px; 
+  line-height: 100%;
+  letter-spacing: 10%;
+  color: rgba(84,84,84,.2); 
+  transform: rotate(-90deg); 
+}
 /*  
   transition: 0.3s;  
 ######################################################################################################
@@ -648,7 +664,7 @@ body{
 @media only screen and (min-width: 1025px) { /* IPAD */
   
   .sect1 h2{
-    color: rgba(84,84,84,.6);
+    color: rgba(84,84,84,.5);
     font-size: 64px;
     margin-bottom: -10px;
   }
@@ -661,7 +677,7 @@ body{
     font-weight: 600; 
     font-size: 64px; 
     line-height: 100%; 
-    color: rgba(84,84,84,.6);
+    color: rgba(84,84,84,.5);
     transform: rotate(-90deg); 
     position: absolute;
     z-index: 3;
@@ -678,9 +694,9 @@ body{
   }
 }      
 
-@media only screen and (min-width: 1200) { /* PC */ 
+@media only screen and (min-width: 1200px) { /* PC */
   .sect1 h2{
-    color: rgba(84,84,84,.6);
+    color: rgba(84,84,84,.5);
     font-size: 64px;
     margin-bottom: -10px;
   }
@@ -694,18 +710,22 @@ body{
     font-size: 64px; 
     line-height: 100%;
     letter-spacing: 10%;
-    color: rgba(84,84,84,.6);
+    color: rgba(84,84,84,.5);
     transform: rotate(-90deg); 
     position: absolute;
     z-index: 3;
-    top: 72%;
-    left: 13%;
-  }  
-  .sect1 img{  
-    display: block;
-    margin-right: -30px; 
-    width: 1386px;
-  } 
+    top: 62% !important;
+    left: 13% !important; 
+  }   
+  .img-1x{
+    width: 1386 !important;
+    height: 705 !important; 
+    object-fit: cover;
+  }
 }      
 
-
+@media (min-width: 1400px) {
+  .container-xl{
+    max-width: 1500px;
+  }
+}
