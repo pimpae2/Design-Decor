@@ -22,7 +22,7 @@ body{
   background-color: #fff;
   position: relative;
   padding-top: 30px;
-  height: 1080px; 
+  height: 100vh; 
 }
 .sect1 .box-color{
   position: absolute;
@@ -113,7 +113,7 @@ body{
   background-color: #fff; 
   padding-top: 80px;
   padding-bottom: 100px;
-  height: 1080px;
+  height: 100vh;
 }
 .sect3 h2{   
   font-weight: 700; 
@@ -314,7 +314,7 @@ body{
   color: black;
 }  
 .sect5{
-  height: 1080px; 
+  height: 100vh; 
   position: relative;
   z-index: 3; 
 } 
@@ -398,7 +398,7 @@ body{
   height: 180px; 
 }
 .sect6{
-  height: 1080px; 
+  height: 100vh; 
   position: relative;
   z-index: 3; 
   padding-top: 100px;
@@ -718,8 +718,8 @@ body{
     left: 13% !important; 
   }   
   .img-1x{
-    width: 1386 !important;
-    height: 705 !important; 
+    width: 1386px !important;
+    height: 605px !important; 
     object-fit: cover;
   }
 }      
