@@ -111,9 +111,9 @@ body{
 }
 .sect3{  
   background-color: #fff; 
-  padding-top: 80px;
-  padding-bottom: 100px;
-  height: 100vh;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  height: calc(100vh - 190px);
 }
 .sect3 h2{   
   font-weight: 700; 
@@ -725,7 +725,7 @@ body{
 }      
 
 @media (min-width: 1400px) {
-  .container-xl{
+  /* .container-xl{
     max-width: 1500px;
-  }
+  } */
 }
