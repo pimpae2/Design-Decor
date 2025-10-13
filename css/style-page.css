@@ -818,7 +818,68 @@ body{
   }
 }
 
+@media (min-width: 607px) and (max-width: 608px) { /* IPAD MINI */
+  .sect1{
+    height: 100%;
+  }   
+  .sect1 .box-color{
+    height: calc(100% - 75px); 
+  }
+  .img-1x {
+    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
+  } 
+  .sect1 h3 {
+    font-size: 30px;
+    top: 66%;
+    left: 5%;
+  }
+  .sect2{
+    height: 100%;
+    padding-bottom: 100px;
+  }  
+  .sect2 .container-fluid {
+    height: 100%;
+    padding-bottom: 50px;
+  }
+  .btn-des { 
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+  }
+  .bgf {
+    height: 100px; 
+  }
+  .plan-ver {
+    margin-top: 40px;
+  }
+  .sect4 .swiper-button-prev {
+    left:  5% !important; 
+  }
+  .sect4 .swiper-button-next {
+    right:  5% !important; 
+  }
+  .sect5:after { 
+    width: 0 !important; 
+  }
+  .text-rot { 
+    top: 53%;
+    right: -35%; 
+  }
+  .sect6 .swiper-button-prev { 
+    left: 83% !important; 
+  }
+  .sect6 .swiper-button-next { 
+    left: 92% !important; 
+  }
+}
+  
 @media (width: 820px) {  /* IPAD AIR5 */
+  .sect1 h3 {
+    font-size: 30px;
+    top: 72%;
+    left: 10%;
+  }
   .sect1{
     height: 100%;
   }
@@ -880,3 +941,101 @@ body{
   }
 }
  
+@media (min-width: 573px) and (max-width: 581px) {  /* IPAD AIR4 */
+  .sect1 h3 {
+    font-size: 30px;
+    top: 64%;
+    left: 5%;
+  }
+  .sect1{
+    height: 100%;
+  }
+  .sect1 .box-color{
+    height: calc(100% - 75px); 
+  }
+  .sect2{
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 150px;
+  }
+  .sect3{
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .plan-ver  {
+    margin-top: 40px;
+  }  
+  .plan-ver .img {
+    height: 300px !important;
+    margin-left: -3% !important;
+  }
+  .img-1x{ 
+    max-width: 100%;  
+    object-fit: cover;
+  } 
+  .sect4 .swiper-button-next {
+    right: 5% !important; 
+  }
+  .sect4 .swiper-button-prev {
+    left: 5% !important; 
+  } 
+  .sect5:after{ 
+    position: absolute;
+    content: "";
+    width: 0%;
+    background-image: url(../images/bg5.jpg);
+    background-size: auto 100% !important;
+    background-repeat: no-repeat !important;
+    background-position: right   center;
+    height: 100%;
+    min-height: 1080px;
+    top: 0;
+    left: 0;
+  } 
+  .text-rot { 
+    top: 65%;
+    right: -36%; 
+  }  
+  .btn-des { 
+    margin-top: 30px; 
+  }
+  .bgf {
+    height: 100px; 
+  } 
+  .sect6 .swiper-button-prev {
+    left: 80% !important;
+  }
+  .sect6 .swiper-button-next {
+    left: 90% !important;
+  }
+}
+ 
+@media only screen and (width: 1559px) { /* Macbook Air */ 
+  .sect1{ 
+    background-color: #fff;
+    position: relative;
+    padding-top: 30px;
+    height: 100vh; 
+  }
+  .sect1 h2{ 
+    font-size: 44px; 
+  } 
+  .sect1 h1{ 
+    font-size: 54px; 
+  } 
+  .sect1 .box-color{ 
+    height: calc(100vh - 120px);  
+  }
+  .sect1 h3{  
+    font-size: 44px;  
+    top: 72% ;
+    left: 15% ; 
+  } 
+  .img-1x{ 
+    max-width: 71%;
+    object-fit: cover;
+    position: absolute;
+    right: -10px;
+  } 
+}     
