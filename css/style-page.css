@@ -1011,26 +1011,22 @@ body{
   }
 }
  
-@media only screen and (width: 1559px) { /* Macbook Air */ 
-  .sect1{ 
-    background-color: #fff;
-    position: relative;
-    padding-top: 30px;
+@media (min-width: 1504px) and (max-width: 1559px) { /* Macbook Air 1559x975 -- Pro Display XDR  1504x846*/ 
+  .sect1{  
     height: 100vh; 
+  }
+  .sect1 .box-color{
+    height: calc(100% - 378px); 
   }
   .sect1 h2{ 
     font-size: 44px; 
   } 
   .sect1 h1{ 
     font-size: 54px; 
-  } 
-  .sect1 .box-color{ 
-    height: calc(100vh - 120px);  
-  }
-  .sect1 h3{  
-    font-size: 44px;  
-    top: 72% ;
-    left: 15% ; 
+  }  
+  .sect1 h3{    
+    top: 54%;
+    left: 16%;
   } 
   .img-1x{ 
     max-width: 71%;
@@ -1038,4 +1034,110 @@ body{
     position: absolute;
     right: -10px;
   } 
+  .text-rot { 
+    top: 55%;
+    right: -13.5%; 
+  }
 }     
+
+@media (min-width: 1727px) and (max-width: 1728px) { /* Macbook Pro 16 */ 
+  .sect1{  
+    height: 100vh; 
+  }
+  .sect1 .box-color{
+    height: calc(100% - 378px); 
+  }
+  .sect1 h2{ 
+    font-size: 44px; 
+  } 
+  .sect1 h1{ 
+    font-size: 54px; 
+  }  
+  .sect1 h3{    
+    top: 45.5% !important;
+    left: 12% !important;
+  } 
+  .img-1x{ 
+    max-width: 71%;
+    object-fit: cover;
+    position: absolute;
+    right: -10px;
+  } 
+  .text-rot { 
+    top: 55%;
+    right: -12%; 
+  }
+} 
+
+
+@media (width: 1280px)  { /* Studio Display 1280x720 */ 
+  .sect1{  
+    height: 100vh; 
+  }
+  .sect1 .box-color{
+    height: calc(100% - 218px); 
+  }
+  .sect1 h2{ 
+    font-size: 44px; 
+  } 
+  .sect1 h1{ 
+    font-size: 54px; 
+  }  
+  .sect1 h3{    
+    top: 60% !important;
+    left: 12% !important;
+  } 
+  .img-1x{ 
+    max-width: 71%;
+    object-fit: cover;
+    position: absolute;
+    right: -10px;
+  } 
+  .text-rot { 
+    top: 55%;
+    right: -16%; 
+  }
+  .plan-ver .img { 
+    height: 315px; 
+  }
+} 
+
+
+@media (width: 1120px)  { /* iMac 24 1120x630  */ 
+  .sect1{  
+    height: 100vh; 
+  }
+  .sect1 .box-color{
+    height: calc(100% - 218px); 
+  }
+  .sect1 h2{ 
+    font-size: 44px; 
+  } 
+  .sect1 h1{ 
+    font-size: 54px; 
+  }  
+  .sect1 h3{    
+    top: 60% !important;
+    left: 12% !important;
+    font-size: 44px; 
+  } 
+  .img-1x{ 
+    max-width: 71%;
+    object-fit: cover;
+    position: absolute;
+    right: -10px;
+  } 
+  .text-rot { 
+    top: 55%;
+    right: -20%; 
+  }
+  .plan-ver .img { 
+    height: 300px; 
+  }
+  .sect4 .swiper-button-prev {
+    left: 5% !important; 
+  }
+  .sect4 .swiper-button-next {
+    right: 5% !important; 
+  }
+} 
