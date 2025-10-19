@@ -61,7 +61,7 @@ body{
 .sect2{  
   background-color: #fff; 
   padding-top: 100px;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
 .sect2 .container-fluid{ 
   background-color: #341D13;
@@ -330,7 +330,7 @@ body{
 .sect5:after{ 
   position: absolute;
   content: "";
-  width: 50%;
+  width: 45%;
   background-image: url(../images/bg5.jpg);
   background-size: auto 100% !important;
   background-repeat: no-repeat !important;
@@ -369,6 +369,7 @@ body{
 .pro-pad{
   margin-top: 20px;
   padding-left: 50px;
+  min-height: 1080px;
 }
 .productx{
   height: 140px;
@@ -644,18 +645,18 @@ body{
   }
   .but-social .btn{ 
     min-width: unset; 
-    height: 64px;
-    width: 64px;
+    height: 64px; 
+    display: block;
+    margin-top: 10px;
+    font-size: 24px;
+    line-height: 40px;
   }
   .but-social .btn img{ 
     margin-left: 2px;
     height: 42px;
     width: 42px;
     margin-top: 2px;
-  }
-  .but-social .btn span{
-    display: none; 
-  }
+  } 
 }
 @media only screen and (max-width: 480px) { /* MOBILE */   
   .sect2 .container-fluid {
