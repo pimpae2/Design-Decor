@@ -564,7 +564,7 @@ body{
     padding-bottom: 60px;
   } 
   .bgf {
-    height: 90px; 
+    display: none;
   }
   .plan-long {
     height: auto;
@@ -589,7 +589,7 @@ body{
     padding-bottom: 50px;
   }
   .sect4 .img-fluid { 
-    padding: 75px;
+    padding: 35px;
   } 
   .sect4 .swiper-button-prev{
     left: 5% !important; 
@@ -618,7 +618,7 @@ body{
   .sect5 .dexx {
     z-index: 11;
     position: relative;
-    margin-top: 80px;
+    margin-top: 0px;
     padding: 30px;
     min-height: 400px;
     background-color: rgba(52, 29, 19, .7);
